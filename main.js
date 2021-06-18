@@ -87,13 +87,11 @@ window.onload = function countDown() {
 };
 
 function bgcolor() {
-  document.getElementById(
-    "container"
-  ).style.backgroundColor = document.getElementById("bg").value;
+  document.querySelector("body").style.backgroundColor = document.getElementById("bg").value;
 }
 
+
 function txcolor() {
-  document.getElementById("container").style.color = document.getElementById(
-    "tx"
-  ).value;
+  document.querySelector("body").style.color =
+    document.getElementById("tx").value;
 }
