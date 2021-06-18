@@ -48,7 +48,7 @@ body {
   width: 70vw;
   height: 55vw;
   overflow-y: scroll;
-  animation: fadeIn 0.5s ease 0s normal;
+  animation: fadeIn 200ms ease 0s normal;
 }
 /* チェックボックスの初期設定 */
 #popup-on {
@@ -98,4 +98,9 @@ body {
 .popup-content {
   margin: 40px auto 40px auto;
   width: 90%;
+}
+
+.github-link {
+  font-size: 1rem;
+  color: #1f1f1f;
 }
