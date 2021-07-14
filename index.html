@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <title>タイマー</title>
   <link rel="stylesheet" href="style.css" />
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
@@ -35,6 +35,9 @@
             <br />設定<br />
             背景色:<input type="color" id="bg" value="#dddddd" onchange="bgcolor()" />
             文字色:<input type="color" id="tx" value="#000000" onchange="txcolor()" />
+            <div>
+              <button onclick="tuuti()">通知テスト</button>
+            </div>
             <!-- ./ポップアップの中身　ここまで -->
           </div>
           <label for="popup-on">

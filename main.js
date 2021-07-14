@@ -81,3 +81,11 @@ function txcolor() {
   document.querySelector("body").style.color =
     document.getElementById("tx").value;
 }
+
+function tuuti(text) {
+  Push.create(text || "チャイムなったよ", {
+    icon: "./android-chrome-512x512.png",
+    body: "タイマーアプリです",
+    timeout: 3000,
+  });
+}
