@@ -1,3 +1,3 @@
 # 学校のチャイム
 
-https://github.com/mochi-sann/alermtimer
+https://mochi-sann.github.io/alermtimer/
